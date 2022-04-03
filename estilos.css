@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedorMenu {
+    background: #4472d4;
+}
+
+.menu {
+    display: inline-block;
+    text-decoration: none;
+    background: #4472d4;
+    color: #fff;
+    padding: 15px;
+}
+
+.menu:hover {
+    background: #538aff;
+}
+
+.contenedor {
+    width: 300px;
+    margin: 30px auto;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0px 40px 20px hsla(221, 63%, 55%, 0.555);
+}
+
+.imagenSpiderman {
+    width: 100%;
+    object-fit: cover;
+}
+
+.imagenSpiderman:hover, .ingresar:hover{
+    opacity: 0.5;
+}
+
+h2.texto {
+    color: #C60203;
+}
+
+.texto {
+    padding: 10px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ingresar {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #C60203;
+    color: #fff;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+}
+
+.goku {
+    display: block;
+    width: 300px;
+    margin: 30px auto;
+    filter: drop-shadow(0px 0px 20px rgb(228, 216, 58));
+}
